@@ -28,6 +28,7 @@ define([
 	"./dimensions",
 	"./deprecated",
 	"./exports/amd",
+    "./exports/cmd",
 	"./exports/global"
 ], function( jQuery ) {
 
