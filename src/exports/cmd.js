@@ -8,9 +8,9 @@ define([
 // upon in the Node module world.
 
 if (typeof define === "function" && define.cmd) {
-  define("jquery", [], function (require, exports, module) {
-    module.exports = jQuery;
-  });
+    define("jquery", [], function( require, exports, module ) {
+        module.exports = jQuery;
+    });
 }
 
 });
